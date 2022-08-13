@@ -1,0 +1,10 @@
+<i
+  class="pi pi-shopping-cart mr-4 p-text-secondary"
+  pBadge
+  style="font-size: 1.5rem; cursor: pointer"
+  [value]="(cart$ | async)?.items?.length"
+  severity="danger"
+  routerLink="/cart"
+>
+</i>
+

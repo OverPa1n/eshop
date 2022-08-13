@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--yellow-100);
+  margin-top: 25px;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+    .footer-copyrights {
+      font-size: 0.8em;
+      font-weight: 200;
+    }
+
+    .footer-contacts {
+      .pi {
+        margin-right: 10px;
+      }
+    }
+  }
+}
